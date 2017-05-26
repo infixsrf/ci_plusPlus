@@ -7,9 +7,9 @@ private:
 	int year, month, day;
 public:
 	Auto (int y, int m, int d) {
-		this.year = y;
-		this.month = m;
-		this.day = d;
+		this->year = y;
+		this->month = m;
+		this->day = d;
 
 		get();
 		cout << endl;
