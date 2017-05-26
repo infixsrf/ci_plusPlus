@@ -33,6 +33,15 @@ public:
 		cout << "Year of this auto is - " << year << ", month is - " << month;
 		cout << ", day is - " << day << endl;
 	}
+
+	
+	/*
+		это деструктор он нужен для освобождения памяти впереди него указывается
+		знак ~
+	*/
+	~Auto () {
+		cout << "Этот блок кода выполняется при уничтожение класса" << endl;
+	}
 }
 
 int main (int argc, const char * argv[]) {
